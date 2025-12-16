@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "50541622370",
+    "project_id": "fitrota-75a36",
+    "storage_bucket": "fitrota-75a36.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50541622370:android:010a7b471298ccfbb20d3b",
+        "android_client_info": {
+          "package_name": "com.omurcansayla.fitrota"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO6jdqCBxMl0rfcadw2MyL9BmrXSLziIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

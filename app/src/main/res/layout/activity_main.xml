@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F5F5F5"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FitRota"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#2E7D32"
+        android:layout_marginBottom="40dp"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="E-Posta Adresi"
+        android:inputType="textEmailAddress"
+        android:background="@android:drawable/edit_text"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Şifre"
+        android:inputType="textPassword"
+        android:background="@android:drawable/edit_text"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/textViewForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Şifremi Unuttum?"
+        android:textColor="#1976D2"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="GİRİŞ YAP"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="#2E7D32"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hesabın yok mu? Kayıt Ol"
+        android:textSize="16sp"
+        android:textColor="#1565C0"/>
+
+</LinearLayout>

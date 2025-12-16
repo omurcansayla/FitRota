@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kayıt Ol"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#F57C00"
+        android:layout_marginBottom="32dp"/>
+
+    <EditText
+        android:id="@+id/editTextRegisterName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Ad Soyad"
+        android:inputType="textPersonName"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextRegisterEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="E-posta"
+        android:inputType="textEmailAddress"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextRegisterPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Şifre"
+        android:inputType="textPassword"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/buttonRegisterConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="KAYDI TAMAMLA"
+        android:textStyle="bold"
+        android:backgroundTint="#2E7D32"/>
+
+</LinearLayout>

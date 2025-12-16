@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:padding="16dp"
+        android:elevation="4dp">
+
+        <TextView
+            android:id="@+id/textViewWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Merhaba, Kullanıcı"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:layout_marginBottom="10dp"/>
+
+        <SearchView
+            android:id="@+id/searchViewFacility"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:queryHint="Tesis ara..."
+            android:iconifiedByDefault="false"
+            android:background="@drawable/bg_search_rounded"
+            android:layout_marginBottom="10dp"/>
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnCatAll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Tümü"
+                    android:textSize="12sp"
+                    android:layout_marginEnd="8dp"
+                    android:backgroundTint="#F57C00"/>
+
+                <Button
+                    android:id="@+id/btnCatFootball"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Futbol"
+                    android:textSize="12sp"
+                    android:layout_marginEnd="8dp"
+                    android:backgroundTint="#BDBDBD"/>
+
+                <Button
+                    android:id="@+id/btnCatBasketball"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Basketbol"
+                    android:textSize="12sp"
+                    android:layout_marginEnd="8dp"
+                    android:backgroundTint="#BDBDBD"/>
+
+                <Button
+                    android:id="@+id/btnCatTennis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Tenis"
+                    android:textSize="12sp"
+                    android:layout_marginEnd="8dp"
+                    android:backgroundTint="#BDBDBD"/>
+
+                <Button
+                    android:id="@+id/btnCatSwimming"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Yüzme"
+                    android:textSize="12sp"
+                    android:layout_marginEnd="8dp"
+                    android:backgroundTint="#BDBDBD"/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/buttonGoProfile"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="PROFİLİM"
+                android:textSize="12sp"
+                android:layout_marginEnd="5dp"/>
+
+            <Button
+                android:id="@+id/buttonLogout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ÇIKIŞ YAP"
+                android:backgroundTint="#D32F2F"
+                android:textSize="12sp"
+                android:layout_marginStart="5dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonAddFacilityPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+ TESİS EKLE (ADMİN)"
+            android:backgroundTint="#EF6C00"
+            android:layout_marginTop="5dp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewFacilities"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"/>
+
+</LinearLayout>
