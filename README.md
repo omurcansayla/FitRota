@@ -24,6 +24,3 @@ Geleneksel tesis kiralama süreçlerindeki telefonla arama, müsaitlik durumu so
 - **Backend & API:** C# / .NET 
 - **Veritabanı:** MSSQL (İlişkisel veritabanı tasarımı, trigger ve view'ler kullanılarak optimize edilmiştir)
 - **Versiyon Kontrolü:** Git & GitHub
-1. **Depoyu Klonlayın:**
-   ```bash
-   git clone [https://github.com/kullaniciadiniz/fitRota.git](https://github.com/kullaniciadiniz/fitRota.git)
